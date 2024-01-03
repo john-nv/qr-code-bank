@@ -108,6 +108,24 @@ input {
     font-size: 17px;
 }
 
+.input-wrapper {
+    position: relative;
+    display: inline-block;
+    width: fit-content; /* Đảm bảo rằng container chỉ có độ rộng tối thiểu cần thiết */
+}
+
+.input-wrapper .input {
+    padding-right: 40px;
+}
+
+#banking_amount_span {
+    position: absolute;
+    right: 0;
+    top: 60%;
+    transform: translateY(-50%);
+    padding-right: 5px;
+}
+
 @media only screen and (max-width: 600px) {
     h3 {
         font-size: 15px;
