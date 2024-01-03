@@ -1,4 +1,4 @@
-let number = 7777777770
+let number = 1015422345
 let binCode = 970436
 
 let getUsername = !localStorage.getItem('username') || String(localStorage.getItem('username')).length < 1 
